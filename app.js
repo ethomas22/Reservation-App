@@ -27,6 +27,11 @@ app.get(/\/assets\/.+/i, function(request, response) {
     response.sendFile(path.join(__dirname, request.path));
 });
 
+// API
+app.get("/tables/list", function(request, response) {
+    response.end(reservations);
+});
+
 app.post("/reserve/new", function(request, response) {
     request.accepts("json");
     let data = request.body;
