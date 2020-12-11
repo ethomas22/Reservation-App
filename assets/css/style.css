@@ -1,0 +1,21 @@
+.background {
+    background-color: lightgrey;
+    padding-bottom: 10vh;
+}
+
+.font {
+    font-family: sans-serif ;
+}
+
+.size {
+    font-size: 50px;
+}
+
+.size2 {
+    font-size: 20px;
+}
+
+.margins {
+    margin-top: 25vh;
+}
+
