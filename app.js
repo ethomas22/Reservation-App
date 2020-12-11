@@ -15,11 +15,11 @@ app.get("/", function(request, response) {
 });
 
 app.get("/tables", function(request, response) {
-
+    response.sendFile(path.join(__dirname, "tables.html"));
 });
 
 app.get("/reserve", function(request, response) {
-
+    response.sendFile(path.join(__dirname, "reservation.html"));
 });
 
 // Assets (such as css and js)
