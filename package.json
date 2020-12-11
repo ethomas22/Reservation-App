@@ -1,0 +1,22 @@
+{
+  "name": "reservation-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethomas22/Reservation-App.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ethomas22/Reservation-App/issues"
+  },
+  "homepage": "https://github.com/ethomas22/Reservation-App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
